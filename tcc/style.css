@@ -47,15 +47,23 @@ header{
     align-items: center;
 }
 
-.img1{
-    width: auto;
-    height: 65px;
+h1{
+    font-family: 'Nixie One';
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
 }
 
+image{
+    position: relative;
+    top: 1050pxs
+}
 
-.container-logo{
-    display: flex;
-    align-items: center;
+table{
+    width: 100%;
+    margin-left: -150px;
+    position: relative;
+    top: -20px;
 }
 
 .menu li{
@@ -70,11 +78,29 @@ header{
     color: #222;
 }
 
-h1{
-    font-family: 'Nixie One';
-    font-weight: bold;
-    font-size: 40px;
+.menu2 li a{
+    font-family: 'now', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #86a397;
+
+}
+.menu2 li{
+    display: inline-block;
+    margin: 0 55px;
+    position: relative;
+    top: -20px;
+    border: #86a397 solid 1px;
+}
+
+.container-logo{
+    display: flex;
     align-items: center;
+}
+
+.img1{
+    width: auto;
+    height: 65px;
 }
 
 .icon{
@@ -121,9 +147,6 @@ h1{
     width: 1200px;
     display: flex;
     position:relative;
-    top: -10px;
-    left: 55px;
-    right: 50px;
 }
 
 .relac{
@@ -135,12 +158,7 @@ h1{
     font-size: 45px;
 }
 
-table{
-    width: 100%;
-    margin-left: -150px;
-    position: relative;
-    top: -20px;
-}
+
 
 .play{
     font-family: 'play';
@@ -176,11 +194,6 @@ table{
     border-color: #86A397;
 }
 
-image{
-    position: relative;
-    top: 1050pxs
-}
-
 #container {
     display: inline-block;
     position: relative;
@@ -206,9 +219,7 @@ image{
 
 .relac2{
     font-family: 'monkey';
-    color: #000;
-    position: relative;
-    text-align: center;   
+    color: #000; 
     font-size: 55px;
 }
 
@@ -235,6 +246,7 @@ image{
     font-size: 50px;
     position: relative;
     text-align: center;
+    top: 20px;
     left: 33px;
 }
 
@@ -248,8 +260,19 @@ image{
     left: 31px;
 }
 
-.pag2{
-    margin: -70px;
+.forum2{
+    font-family: 'forum';
+    border-width: medium;
+    border-style: solid;
+    border-width: 2.5px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: #000;
+}
+
+.fotos{
+    margin: -72px;
     width: 230px;
     height: 240px;
     object-fit: cover;
@@ -266,24 +289,11 @@ image{
     top: 30px;
 }
 
-.figure{
-    border-style: dotted;
+.fotos li{
+    display: inline-block;
+    margin: 0 10px;
 }
 
 .fa_custom {
     color: #abbdee;
-}
-
-.menu2 li a{
-    font-family: 'now', Times, serif;
-    font-size: 18px;
-    text-decoration: none;
-    color: #222;
-
-}
-.menu2 li{
-    display: inline-block;
-    margin: 0 55px;
-    position: relative;
-    top: -20px;
 }
