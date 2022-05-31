@@ -197,9 +197,9 @@ table{
 #container {
     display: inline-block;
     position: relative;
-  }
+}
   
-  #container figcaption {
+#container figcaption {
     position: absolute;
     top: 145px;
     right: 20px;
@@ -286,14 +286,22 @@ table{
     border-left-width: 0px;
     border-color: #86A397;
     left: -70px;
-    top: 30px;
-}
-
-.fotos li{
-    display: inline-block;
-    margin: 0 10px;
+    top: 50px;
 }
 
 .fa_custom {
     color: #abbdee;
 }
+#teste{
+    font-family: 'now', Times, serif;
+    position: relative;
+    bottom: -100px;
+    left: -40px;
+    color: #fff;
+}
+
+
+
+
+
+
